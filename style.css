@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;600;700&display=swap');
+*{
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* navigation styles */
+
+nav{
+    display: flex;
+    background-color: #1F2937;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+nav a{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+nav ul li a{
+    color: #E5E7EB;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 100;
+}
+section{
+     width: 100vw;
+}
+
+/* Hero section styles */
+
+.hero-section{
+    background-color: #1F2937;
+    display: flex;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.hero-content{
+    padding-left: 10vw;
+}
+.hero-content h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+.hero-content p{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 40vw;
+}
+
+.hero-image{
+    height: 100%;
+    color: #E5E7EB;
+    background-color: #949494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.hero-image-content{
+    width: 40vw;
+
+}
+
+#hero-button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 20px;
+    font-weight: bold;
+}
+
+/* Information section Stlyes */
+.information{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.information-section h2{ 
+    margin:auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.information-section ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.information-section ul li{
+    width: 100%;
+}
+.information-section ul li p{
+    text-align: center;
+}
+
+
+.information-image{
+    width: 150px;
+    height: 150px;
+    border: #3882F6 3px solid;
+    border-radius: 20px;
+    margin: auto;
+}
+
+/* Quote section styles */
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.quote-section figure{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.quote-section figcaption{
+    align-self: end;
+    padding-right: 15vw;
+    font-weight: bolder;
+}
+
+
+/* Call to Action section styles */
+
+.container{
+    display:flex;
+    background-color: #3882F6;
+    width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-right:  8vw;
+
+}
+.call-to-action .container .call-to-acton-text{
+    padding-left: 8vw;
+}
+.call-to-action .container .call-to-acton-text h4{
+    margin-bottom: 0px;
+}
+.call-to-action .container .call-to-acton-text p{
+    margin-top: 0px;
+}
+.call-to-action .container button{
+    align-self: center;
+    background-color: #3882F6;
+    height: 25px;
+    color: #F9FAF8;
+    border: #F9FAF8 2px solid;
+    border-radius: 4px;
+    padding: 0px 20px;
+
+}
+
+/* Footer styles */
+
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-weight: lighter;
+}
